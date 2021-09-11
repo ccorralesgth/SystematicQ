@@ -1,2 +1,2 @@
-# systematik
-SystematiK is a discretionary and systematic framework..more infor 
+# SystematicQ
+SystematicQ is a discretionary and systematic framework..more infor will be added soon...
