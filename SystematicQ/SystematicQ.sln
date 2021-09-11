@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystematicQ.Brokers", "SystematicQ.Brokers\SystematicQ.Brokers.csproj", "{F5A59016-B7EE-4774-9042-3B6CCA971901}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystematicQ.xTests", "SystematicQ.xTests\SystematicQ.xTests.csproj", "{6138C83E-BEE0-40AC-B283-C8AB05F6A911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5A59016-B7EE-4774-9042-3B6CCA971901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A59016-B7EE-4774-9042-3B6CCA971901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A59016-B7EE-4774-9042-3B6CCA971901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A59016-B7EE-4774-9042-3B6CCA971901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6138C83E-BEE0-40AC-B283-C8AB05F6A911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6138C83E-BEE0-40AC-B283-C8AB05F6A911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6138C83E-BEE0-40AC-B283-C8AB05F6A911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6138C83E-BEE0-40AC-B283-C8AB05F6A911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B83CED47-FCBC-4A71-B965-656E646EC5B8}
+	EndGlobalSection
+EndGlobal
