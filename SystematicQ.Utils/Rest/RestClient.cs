@@ -38,6 +38,15 @@ namespace SystematicQ.Utils.Rest
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// execute endpoint
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="method"></param>
+        /// <param name="endpoint"></param>
+        /// <param name="request"></param>
+        /// <param name="headers"></param>
+        /// <returns></returns>
         public static async Task<IResponse<T>> ExecuteEndpointAsync<T>(Method method, string endpoint, IRequest request, Dictionary<string, string> headers)
         {
             throw new NotImplementedException();

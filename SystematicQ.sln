@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystematicQ.Brokers", "Syst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystematicQ.xTests", "SystematicQ.xTests\SystematicQ.xTests.csproj", "{6138C83E-BEE0-40AC-B283-C8AB05F6A911}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SystematicQ.Utils", "SystematicQ.Utils\SystematicQ.Utils.csproj", "{1728A55E-911E-4D54-8AB9-214EE9D9BA6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6138C83E-BEE0-40AC-B283-C8AB05F6A911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6138C83E-BEE0-40AC-B283-C8AB05F6A911}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6138C83E-BEE0-40AC-B283-C8AB05F6A911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1728A55E-911E-4D54-8AB9-214EE9D9BA6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1728A55E-911E-4D54-8AB9-214EE9D9BA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1728A55E-911E-4D54-8AB9-214EE9D9BA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1728A55E-911E-4D54-8AB9-214EE9D9BA6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
