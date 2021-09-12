@@ -13,4 +13,13 @@ namespace SystematicQ.Utils.Const
         Linux,
         Mac
     }
+
+    /// <summary>
+    /// brokers enumerator
+    /// </summary>
+    public enum BrokerType
+    {
+        TdAmeritrade,
+        InteractiveBroker
+    }
 }
