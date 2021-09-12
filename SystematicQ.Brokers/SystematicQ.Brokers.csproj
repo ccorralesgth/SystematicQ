@@ -6,9 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Common\Interfaces\" />
-    <Folder Include="IB\" />
-    <Folder Include="Td\" />
+    <Folder Include="BrokerFactory\" />
+    <Folder Include="Paper\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SystematicQ.Utils\SystematicQ.Utils.csproj" />
   </ItemGroup>
 
 </Project>
