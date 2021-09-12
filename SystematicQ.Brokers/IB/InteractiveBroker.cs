@@ -20,7 +20,7 @@ namespace SystematicQ.Brokers.IB
 
         public async Task AuthenticateAsync()
         {
-            await Task.Run(() => { Console.WriteLine("ib broker authenticated"); });
+            Console.WriteLine("ib broker authenticated");
             //throw new NotImplementedException();
         }
     }

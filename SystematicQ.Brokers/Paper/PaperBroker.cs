@@ -2,24 +2,24 @@
 using System.Threading.Tasks;
 using SystematicQ.Brokers.Common.Interfaces;
 
-namespace SystematicQ.Brokers.TD
+namespace SystematicQ.Brokers.Paper
 {
     /// <summary>
-    /// TDAmeritrade class [factory: concrete product]
+    /// Paper Broker class [factory: concrete product]
     /// </summary>
-    internal class TDAmeritrade : IBroker
+    public class PaperBroker : IBroker
     {
         /// <summary>
         /// constructor
         /// </summary>
-        public TDAmeritrade()
+        public PaperBroker()
         {
-            Console.WriteLine("td broker created");
+            Console.WriteLine("paper broker created");
             AuthenticateAsync();
         }
         public async Task AuthenticateAsync()
         {
-            Console.WriteLine("td broker authenticated");           
+            Console.WriteLine("paper broker authenticated");
 
             //throw new NotImplementedException();
         }

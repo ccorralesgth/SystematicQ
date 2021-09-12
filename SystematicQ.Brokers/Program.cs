@@ -16,10 +16,7 @@ namespace SystematicQ.Brokers
             IBroker td = new Broker().GetBroker(BrokerType.TdAmeritrade);
             IBroker ib = new Broker().GetBroker(BrokerType.InteractiveBroker);
 
-
             Console.ReadLine();          
-
-
         }
 
     }
